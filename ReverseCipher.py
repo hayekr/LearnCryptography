@@ -1,5 +1,5 @@
 # Reverse Cipher
-# To decrypt Copy and paste encrypted message into the message variable.
+# To decrypt Copy and Paste encrypted message into the message variable.
 
 message = 'I need to be in reverse, can you encrypt me'
 
