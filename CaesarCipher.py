@@ -1,12 +1,12 @@
 # CaesarCipher
 
-import pyperclip.py
+import pyperclip
 
 # The string to be encrypted/decrypted
 message = 'Vittorio Hayek lives in Solon ohio'
 
 # The encryption/decryption key
-key = 13
+key = 16
 
 # Tell the program to encrypt or decrypt
 mode = 'encrypt'  # set to 'encrypt' or 'decrypt'
@@ -25,6 +25,7 @@ for symbol in message:
     if symbol in LETTERS:
         # Get the encrypted/decrypted symbol for this number
         num = LETTERS.find(symbol)
+
         if mode == 'encrypt':
             num = num + key
         elif mode == 'decrypt':
