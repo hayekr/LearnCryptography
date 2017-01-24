@@ -1,15 +1,15 @@
 # CaesarCipher
 
-import pyperclip
+#import pyperclip
 
 # The string to be encrypted/decrypted
-message = 'Vittorio Hayek lives in Solon ohio'
+message = 'KQEUCQIYDC'
 
 # The encryption/decryption key
 key = 16
 
 # Tell the program to encrypt or decrypt
-mode = 'encrypt'  # set to 'encrypt' or 'decrypt'
+mode = 'decrypt'  # set to 'encrypt' or 'decrypt'
 
 # Every possible letter(s) that can be encrypted
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYXZ'
@@ -48,4 +48,4 @@ for symbol in message:
 print(translated)
 
 # Copy the translated string to the clipboard
-pyperclip.copy(translated)
+#pyperclip.copy(translated)
