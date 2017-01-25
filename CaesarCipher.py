@@ -3,10 +3,10 @@
 import pyperclip
 
 # The string to be encrypted/decrypted
-message = 'Vape nation'
+message = 'VAPE NATION.'
 
 # The encryption/decryption key
-key = 16
+key = 13
 
 # Tell the program to encrypt or decrypt
 mode = 'encrypt'  # set to 'encrypt' or 'decrypt'
