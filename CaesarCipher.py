@@ -1,6 +1,6 @@
 # CaesarCipher
 
-#import pyperclip
+import pyperclip
 
 # The string to be encrypted/decrypted
 message = 'KQEUCQIYDC'
@@ -48,4 +48,4 @@ for symbol in message:
 print(translated)
 
 # Copy the translated string to the clipboard
-#pyperclip.copy(translated)
+pyperclip.copy(translated)
