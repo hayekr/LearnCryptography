@@ -9,7 +9,7 @@ message = 'VAPE NATION.'
 key = 13
 
 # Tell the program to encrypt or decrypt
-mode = 'encrypt'  # set to 'encrypt' or 'decrypt'
+mode = 'encrypt'  # Set to 'encrypt' or 'decrypt'
 
 # Every possible letter(s) that can be encrypted
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYXZ'
