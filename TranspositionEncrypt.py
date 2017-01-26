@@ -3,7 +3,7 @@
 import pyperclip
 
 def main():
-    myMessage = 'This is my secret message.'
+    myMessage = 'Common sense is not so common.'
     myKey = 8
 
     ciphertext = encryptMessage(myKey, myMessage)
@@ -36,7 +36,7 @@ if __name__ == '__main__':
         # Convert the ciphertext list into a single string value and return it
                 return ''.join(ciphertext)
 
-# If transpostionEncrypt.py is run (instead of imported as module) call
+# If transpostion Encrypt.py is run (instead of imported as module) call
 # the main() function
 if __name__ == '__main__':
     main()
